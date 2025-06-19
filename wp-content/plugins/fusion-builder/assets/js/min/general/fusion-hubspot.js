@@ -1,1 +1,0 @@
-!function(n){"use strict";n('a[href="#hubspot-open-chat"]').on("click",(function(n){n.preventDefault(),window.HubSpotConversations&&window.HubSpotConversations.widget.open()}))}(jQuery);
