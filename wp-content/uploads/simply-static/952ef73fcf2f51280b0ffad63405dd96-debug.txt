@@ -1,0 +1,1413 @@
+[2025-06-23 09:43:26] [class-ss-archive-creation-job.php:119] Starting a job; no job is presently running
+[2025-06-23 09:43:26] [class-ss-archive-creation-job.php:120] Here's our task list: setup, scan_themes_plugins_dir, fetch_urls, generate_404, create_zip_archive, wrapup
+[2025-06-23 09:43:26] [class-ss-archive-creation-job.php:138] Pushing first task to queue: setup
+[2025-06-23 09:43:27] [class-ss-archive-creation-job.php:194] Current task: setup
+[2025-06-23 09:43:27] [class-ss-archive-creation-job.php:208] Performing task: setup
+[2025-06-23 09:43:27] [class-ss-task.php:44] Status message: [setup] Setting up
+[2025-06-23 09:43:27] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806\
+[2025-06-23 09:43:27] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/brillan/
+[2025-06-23 09:43:27] [class-ss-setup-task.php:82] Adding additional URL to queue: http://localhost/brillan/hidden-page/
+[2025-06-23 09:43:27] [class-ss-setup-task.php:82] Adding additional URL to queue: http://localhost/brillan/terms-and-conditions/
+[2025-06-23 09:43:27] [class-ss-setup-task.php:82] Adding additional URL to queue: http://localhost/brillan/special-client-page/
+[2025-06-23 09:43:27] [class-ss-setup-task.php:169] File doesn't exist: C:/xampp/htdocs/brillan/custom-scripts/
+[2025-06-23 09:43:27] [class-ss-setup-task.php:169] File doesn't exist: C:/xampp/htdocs/brillan/assets/private-style.css
+[2025-06-23 09:43:27] [class-ss-setup-task.php:169] File doesn't exist: C:/xampp/htdocs/brillan/extra-pages/hidden.html
+[2025-06-23 09:43:27] [class-ss-archive-creation-job.php:233] We've found our next task: scan_themes_plugins_dir
+[2025-06-23 09:43:27] [class-ss-archive-creation-job.php:194] Current task: scan_themes_plugins_dir
+[2025-06-23 09:43:27] [class-ss-archive-creation-job.php:208] Performing task: scan_themes_plugins_dir
+[2025-06-23 09:43:27] [class-ss-archive-creation-job.php:233] We've found our next task: fetch_urls
+[2025-06-23 09:43:27] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-06-23 09:43:27] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-06-23 09:43:27] [class-ss-fetch-urls-task.php:69] Total pages: 4; Pages remaining: 4
+[2025-06-23 09:43:27] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/
+[2025-06-23 09:43:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 4
+[2025-06-23 09:43:27] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921bfa005c-zYTCOK.tmp
+[2025-06-23 09:43:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/?simply_static_page=3716
+[2025-06-23 09:43:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/?simply_static_page=3716
+[2025-06-23 09:43:28] [class-ss-url-fetcher.php:103] Filesize: 88921 bytes
+[2025-06-23 09:43:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-06-23 09:43:28] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2025-06-23 09:43:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921bfa005c-zYTCOK.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/index.html
+[2025-06-23 09:43:28] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:30] [class-ss-fetch-urls-task.php:159] Adding 18 URLs to the queue
+[2025-06-23 09:43:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:30] [class-ss-page.php:119] Checking Content Identical:067009104116cc1bdd9b210c014cf2d2dbf7610e===. Value: FALSE
+[2025-06-23 09:43:30] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/hidden-page/
+[2025-06-23 09:43:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 4
+[2025-06-23 09:43:30] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c2c6f11-oD0N9B.tmp
+[2025-06-23 09:43:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/hidden-page/?simply_static_page=3717
+[2025-06-23 09:43:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/hidden-page/?simply_static_page=3717
+[2025-06-23 09:43:31] [class-ss-url-fetcher.php:103] Filesize: 35887 bytes
+[2025-06-23 09:43:31] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-06-23 09:43:31] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-06-23 09:43:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c38fd46-EKeOUJ.tmp
+[2025-06-23 09:43:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/hidden-page/
+[2025-06-23 09:43:32] [class-ss-url-fetcher.php:103] Filesize: 35887 bytes
+[2025-06-23 09:43:32] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-06-23 09:43:32] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-06-23 09:43:32] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/terms-and-conditions/
+[2025-06-23 09:43:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 4
+[2025-06-23 09:43:32] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c45f7db-d2oDxN.tmp
+[2025-06-23 09:43:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/terms-and-conditions/?simply_static_page=3718
+[2025-06-23 09:43:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/terms-and-conditions/?simply_static_page=3718
+[2025-06-23 09:43:33] [class-ss-url-fetcher.php:103] Filesize: 35887 bytes
+[2025-06-23 09:43:33] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-06-23 09:43:33] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-06-23 09:43:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c52466f-1OWrzg.tmp
+[2025-06-23 09:43:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/terms-and-conditions/
+[2025-06-23 09:43:33] [class-ss-url-fetcher.php:103] Filesize: 35887 bytes
+[2025-06-23 09:43:33] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-06-23 09:43:33] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-06-23 09:43:33] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/special-client-page/
+[2025-06-23 09:43:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 4
+[2025-06-23 09:43:33] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c5e1633-NDR21U.tmp
+[2025-06-23 09:43:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/special-client-page/?simply_static_page=3719
+[2025-06-23 09:43:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/special-client-page/?simply_static_page=3719
+[2025-06-23 09:43:34] [class-ss-url-fetcher.php:103] Filesize: 35887 bytes
+[2025-06-23 09:43:34] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-06-23 09:43:34] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-06-23 09:43:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c6ad469-wHg0TU.tmp
+[2025-06-23 09:43:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/special-client-page/
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:103] Filesize: 35887 bytes
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-06-23 09:43:35] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 4 pages/files
+[2025-06-23 09:43:35] [class-ss-archive-creation-job.php:241] We're not done with the fetch_urls task yet
+[2025-06-23 09:43:35] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-06-23 09:43:35] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:69] Total pages: 21; Pages remaining: 17
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/index.php/about-us/
+[2025-06-23 09:43:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 21
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://localhost/brillan/index.php/about-us/
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/index.php/product/
+[2025-06-23 09:43:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 21
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://localhost/brillan/index.php/product/
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/index.php/contact/
+[2025-06-23 09:43:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 21
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://localhost/brillan/index.php/contact/
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/index.php/author/wielofa/
+[2025-06-23 09:43:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 21
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://localhost/brillan/index.php/author/wielofa/
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-includes/js/jquery/jquery.min.js
+[2025-06-23 09:43:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 21
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c77e853-VZDSRW.tmp
+[2025-06-23 09:43:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-includes/js/jquery/jquery.min.js?simply_static_page=3724
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-includes/js/jquery/jquery.min.js?simply_static_page=3724
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c77e853-VZDSRW.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-includes/js/jquery/jquery.min.js
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:35] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-scripts/6f1e717d818a4ded57b4ffcb469f6de6.min.js
+[2025-06-23 09:43:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 21
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c79c8b9-DcEIq4.tmp
+[2025-06-23 09:43:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-scripts/6f1e717d818a4ded57b4ffcb469f6de6.min.js?simply_static_page=3725
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-scripts/6f1e717d818a4ded57b4ffcb469f6de6.min.js?simply_static_page=3725
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:103] Filesize: 692241 bytes
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-scripts/6f1e717d818a4ded57b4ffcb469f6de6.min.js
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c79c8b9-DcEIq4.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-scripts/6f1e717d818a4ded57b4ffcb469f6de6.min.js
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:35] [class-ss-page.php:119] Checking Content Identical:f0323e897ae84791e7e247dc4e0afe74cc003ef7===. Value: FALSE
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/plugins/fusion-builder//assets/images/masks/mask-16.svg
+[2025-06-23 09:43:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 21
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c7c2486-jQpaqR.tmp
+[2025-06-23 09:43:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/plugins/fusion-builder//assets/images/masks/mask-16.svg?simply_static_page=3726
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/plugins/fusion-builder//assets/images/masks/mask-16.svg?simply_static_page=3726
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:103] Filesize: 389 bytes
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/fusion-builder//assets/images/masks/mask-16.svg
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c7c2486-jQpaqR.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/plugins/fusion-builder//assets/images/masks/mask-16.svg
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:35] [class-ss-page.php:119] Checking Content Identical:8c321f44ab2328e969b42d9db9f74e8da818fcd7===. Value: FALSE
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/2022/05/waves-top-lines.svg
+[2025-06-23 09:43:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 21
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c7c8f70-VRO0tO.tmp
+[2025-06-23 09:43:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/2022/05/waves-top-lines.svg?simply_static_page=3727
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/2022/05/waves-top-lines.svg?simply_static_page=3727
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:103] Filesize: 46018 bytes
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2022/05/waves-top-lines.svg
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c7c8f70-VRO0tO.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/2022/05/waves-top-lines.svg
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:35] [class-ss-page.php:119] Checking Content Identical:b424615ad25c0239504cd54eef1e40279d60d642===. Value: FALSE
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/2022/05/waves-connected-lines-left.svg
+[2025-06-23 09:43:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 21
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c7da4d2-7QLuIf.tmp
+[2025-06-23 09:43:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/2022/05/waves-connected-lines-left.svg?simply_static_page=3728
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/2022/05/waves-connected-lines-left.svg?simply_static_page=3728
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:103] Filesize: 45876 bytes
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2022/05/waves-connected-lines-left.svg
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c7da4d2-7QLuIf.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/2022/05/waves-connected-lines-left.svg
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:35] [class-ss-page.php:119] Checking Content Identical:e7426ebb5db257837d340985bdb67a80c9973772===. Value: FALSE
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/index.php/feed/
+[2025-06-23 09:43:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 21
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://localhost/brillan/index.php/feed/
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/index.php/comments/feed/
+[2025-06-23 09:43:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 21
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://localhost/brillan/index.php/comments/feed/
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/2025/06/Group-89.png
+[2025-06-23 09:43:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 21
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c7f056d-l0riPM.tmp
+[2025-06-23 09:43:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/2025/06/Group-89.png?simply_static_page=3731
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/2025/06/Group-89.png?simply_static_page=3731
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:103] Filesize: 1766 bytes
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/06/Group-89.png
+[2025-06-23 09:43:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c7f056d-l0riPM.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/2025/06/Group-89.png
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:35] [class-ss-page.php:119] Checking Content Identical:79b871ba12a521a3047d771b3f227b7a0abb0054===. Value: FALSE
+[2025-06-23 09:43:35] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-styles/0d99d822359702e1d1c5f5425a814c0e.min.css
+[2025-06-23 09:43:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 21
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c80063b-QZDm4J.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-styles/0d99d822359702e1d1c5f5425a814c0e.min.css?simply_static_page=3732
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-styles/0d99d822359702e1d1c5f5425a814c0e.min.css?simply_static_page=3732
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 1036996 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-styles/0d99d822359702e1d1c5f5425a814c0e.min.css
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c80063b-QZDm4J.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-styles/0d99d822359702e1d1c5f5425a814c0e.min.css
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 82 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:4ad09cf5f7590d8c4502d0cc0ec5dceafedc7ef7===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/index.php/wp-json/
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 21
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://localhost/brillan/index.php/wp-json/
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/index.php/wp-json/wp/v2/pages/2202
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 21
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://localhost/brillan/index.php/wp-json/wp/v2/pages/2202
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/xmlrpc.php
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 21
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://localhost/brillan/xmlrpc.php
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/index.php/wp-json/oembed/1.0/embed
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 21
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://localhost/brillan/index.php/wp-json/oembed/1.0/embed
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-06-23 09:43:36] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 4 of 21 pages/files
+[2025-06-23 09:43:36] [class-ss-archive-creation-job.php:241] We're not done with the fetch_urls task yet
+[2025-06-23 09:43:36] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-06-23 09:43:36] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:69] Total pages: 103; Pages remaining: 82
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZJhiI2B.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:50; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c847751-yKBNRi.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZJhiI2B.woff2?simply_static_page=3737
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZJhiI2B.woff2?simply_static_page=3737
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 10464 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZJhiI2B.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c847751-yKBNRi.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZJhiI2B.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:5c7b90a2ad8bc0c4e993cedd59280072f819ff78===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZthiI2B.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:49; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c84b0c7-z6BAuk.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZthiI2B.woff2?simply_static_page=3738
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZthiI2B.woff2?simply_static_page=3738
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 8004 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZthiI2B.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c84b0c7-z6BAuk.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZthiI2B.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:32d320352ab4cd5b06fa396278272c4b49b64827===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZNhiI2B.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:48; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c84e69c-qQmka0.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZNhiI2B.woff2?simply_static_page=3739
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZNhiI2B.woff2?simply_static_page=3739
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 5420 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZNhiI2B.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c84e69c-qQmka0.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZNhiI2B.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:d0369bd11b764dfea284b441f05cc1882cf1636c===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZxhiI2B.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:47; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c8561b0-hZtBOH.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZxhiI2B.woff2?simply_static_page=3740
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZxhiI2B.woff2?simply_static_page=3740
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 7932 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZxhiI2B.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c8561b0-hZtBOH.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZxhiI2B.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:a6c2e271e3812440eeb363539c77c7ef67616295===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZBhiI2B.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:46; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c85db54-2qt1JR.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZBhiI2B.woff2?simply_static_page=3741
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZBhiI2B.woff2?simply_static_page=3741
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 5196 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZBhiI2B.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c85db54-2qt1JR.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZBhiI2B.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:b73377d59f83ce82f7321cc9a13e7dab4eca1b5a===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZFhiI2B.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:45; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c861191-mOlCRT.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZFhiI2B.woff2?simply_static_page=3742
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZFhiI2B.woff2?simply_static_page=3742
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 36240 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZFhiI2B.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c861191-mOlCRT.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZFhiI2B.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:355672cef7af901659c0fe6615d4b42fa94ce009===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZ9hiA.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:44; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c865083-dkhNDM.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZ9hiA.woff2?simply_static_page=3743
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZ9hiA.woff2?simply_static_page=3743
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 24248 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZ9hiA.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c865083-dkhNDM.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZ9hiA.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:bd6014fd2c882e6c7a1f84b8a60083142f5d2438===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_d0n9QB_VIKg.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:43; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c86d827-KXd3Gr.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_d0n9QB_VIKg.woff2?simply_static_page=3744
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_d0n9QB_VIKg.woff2?simply_static_page=3744
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 1052 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_d0n9QB_VIKg.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c86d827-KXd3Gr.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_d0n9QB_VIKg.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:a3058fda2285048bac130793c837f3533e207261===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_d0n9Qh_VIKg.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c871430-YhOdkM.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_d0n9Qh_VIKg.woff2?simply_static_page=3745
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_d0n9Qh_VIKg.woff2?simply_static_page=3745
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 4196 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_d0n9Qh_VIKg.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c871430-YhOdkM.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_d0n9Qh_VIKg.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:c4cc58a416a67f30f73edd8c1d946beda167967a===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_d0n9Qx_VIKg.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c8746a2-3BLnY2.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_d0n9Qx_VIKg.woff2?simply_static_page=3746
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_d0n9Qx_VIKg.woff2?simply_static_page=3746
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 10960 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_d0n9Qx_VIKg.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c8746a2-3BLnY2.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_d0n9Qx_VIKg.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:ee2a8db6527acaa9585d339a4b76c2cc3b40a4dc===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_d0n9TR_V.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c87c9e2-2eGWlx.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_d0n9TR_V.woff2?simply_static_page=3747
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_d0n9TR_V.woff2?simply_static_page=3747
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 12188 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_d0n9TR_V.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c87c9e2-2eGWlx.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_d0n9TR_V.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:d012efbbfe11dd9255dab51a51bb58e3085317c8===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLm21lVFteOcEg.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c880b70-zpJLRW.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLm21lVFteOcEg.woff2?simply_static_page=3748
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLm21lVFteOcEg.woff2?simply_static_page=3748
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 45772 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLm21lVFteOcEg.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c880b70-zpJLRW.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLm21lVFteOcEg.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:3f525e23c8348d334aebcc4f2c4960f589ec503c===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLm21lVGdeOcEg.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c884c02-ZFFNNZ.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLm21lVGdeOcEg.woff2?simply_static_page=3749
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLm21lVGdeOcEg.woff2?simply_static_page=3749
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 5956 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLm21lVGdeOcEg.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c884c02-ZFFNNZ.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLm21lVGdeOcEg.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:b0e5a5475e541b692ffa567f843992430b1309aa===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLm21lVF9eO.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c88b04e-02XWtI.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLm21lVF9eO.woff2?simply_static_page=3750
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLm21lVF9eO.woff2?simply_static_page=3750
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 8712 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLm21lVF9eO.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c88b04e-02XWtI.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLm21lVF9eO.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:a3e7876a3bb8b3a8c38bc8dbef51b1140b51b38d===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiGyp8kv8JHgFVrJJLucXtAKPY.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c892fe6-clYWHY.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiGyp8kv8JHgFVrJJLucXtAKPY.woff2?simply_static_page=3751
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiGyp8kv8JHgFVrJJLucXtAKPY.woff2?simply_static_page=3751
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 45968 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/pxiGyp8kv8JHgFVrJJLucXtAKPY.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c892fe6-clYWHY.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/pxiGyp8kv8JHgFVrJJLucXtAKPY.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:0e5596d6031058f2784369524a0fe4fcfed1916e===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiGyp8kv8JHgFVrJJLufntAKPY.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c89abe0-c13TmM.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiGyp8kv8JHgFVrJJLufntAKPY.woff2?simply_static_page=3752
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiGyp8kv8JHgFVrJJLufntAKPY.woff2?simply_static_page=3752
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 5964 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/pxiGyp8kv8JHgFVrJJLufntAKPY.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c89abe0-c13TmM.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/pxiGyp8kv8JHgFVrJJLufntAKPY.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:dac66fc1b16eaa8fd280fe4a821c51070a4f7f22===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiGyp8kv8JHgFVrJJLucHtA.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c89e24c-sTpxaP.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiGyp8kv8JHgFVrJJLucHtA.woff2?simply_static_page=3753
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiGyp8kv8JHgFVrJJLucHtA.woff2?simply_static_page=3753
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 8668 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/pxiGyp8kv8JHgFVrJJLucHtA.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c89e24c-sTpxaP.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/pxiGyp8kv8JHgFVrJJLucHtA.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:d70e2c70b21cbb66cd883ae56e2dedacefd81c7c===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLmg1hVFteOcEg.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c8a6d7d-A4S0vA.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLmg1hVFteOcEg.woff2?simply_static_page=3754
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLmg1hVFteOcEg.woff2?simply_static_page=3754
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 44976 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLmg1hVFteOcEg.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c8a6d7d-A4S0vA.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLmg1hVFteOcEg.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:d041d7d8d8c4510f14f09c1c51da54e10c77cb96===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLmg1hVGdeOcEg.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c8ab655-Sn5aCJ.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLmg1hVGdeOcEg.woff2?simply_static_page=3755
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLmg1hVGdeOcEg.woff2?simply_static_page=3755
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 5856 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLmg1hVGdeOcEg.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c8ab655-Sn5aCJ.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLmg1hVGdeOcEg.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:292b7ab741f3021d4c61da40d7ba41ea013dfa93===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLmg1hVF9eO.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c8b5304-0XscX4.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLmg1hVF9eO.woff2?simply_static_page=3756
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLmg1hVF9eO.woff2?simply_static_page=3756
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 8504 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLmg1hVF9eO.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c8b5304-0XscX4.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLmg1hVF9eO.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:a99a6d584385f86f84e893330f6ae158372b5d63===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLmr19VFteOcEg.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c8b95f8-Ra3kOu.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLmr19VFteOcEg.woff2?simply_static_page=3757
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLmr19VFteOcEg.woff2?simply_static_page=3757
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 45596 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLmr19VFteOcEg.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c8b95f8-Ra3kOu.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLmr19VFteOcEg.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:4e8f75addd43a03b562310a93c4d4f47c4618430===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLmr19VGdeOcEg.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c8be47a-7nlHz3.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLmr19VGdeOcEg.woff2?simply_static_page=3758
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLmr19VGdeOcEg.woff2?simply_static_page=3758
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 6012 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLmr19VGdeOcEg.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c8be47a-7nlHz3.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLmr19VGdeOcEg.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:9b4e139f86dab1af1f34f174d237f2edc81cc253===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLmr19VF9eO.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c8c2006-h7I01Q.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLmr19VF9eO.woff2?simply_static_page=3759
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLmr19VF9eO.woff2?simply_static_page=3759
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 8724 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLmr19VF9eO.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c8c2006-h7I01Q.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/pxiDyp8kv8JHgFVrJJLmr19VF9eO.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:85397079f9f963cd2f16dc5600d8d7795924d73d===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLDz8Z11lFc-K.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c8c678c-mSqmol.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLDz8Z11lFc-K.woff2?simply_static_page=3760
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLDz8Z11lFc-K.woff2?simply_static_page=3760
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 39412 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLDz8Z11lFc-K.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c8c678c-mSqmol.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLDz8Z11lFc-K.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:58dae05dadbb13d0a42ffa7a3a4515a18651e121===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLDz8Z1JlFc-K.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c8cb59a-MLWPpo.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLDz8Z1JlFc-K.woff2?simply_static_page=3761
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLDz8Z1JlFc-K.woff2?simply_static_page=3761
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 5524 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLDz8Z1JlFc-K.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c8cb59a-MLWPpo.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLDz8Z1JlFc-K.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:740a7bbd227b9de77022aadae6e1d8002c195fcd===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c8cf8f1-f45Ews.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2?simply_static_page=3762
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2?simply_static_page=3762
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 7840 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c8cf8f1-f45Ews.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:a9e9bafe64666f4595051a0e895b47a5fa39e67e===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiEyp8kv8JHgFVrJJbecmNE.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c8d3322-tT1Jpn.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiEyp8kv8JHgFVrJJbecmNE.woff2?simply_static_page=3763
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiEyp8kv8JHgFVrJJbecmNE.woff2?simply_static_page=3763
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 39660 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/pxiEyp8kv8JHgFVrJJbecmNE.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c8d3322-tT1Jpn.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/pxiEyp8kv8JHgFVrJJbecmNE.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:fa178df4468e867ccc1d8a2d585b48475acf52aa===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiEyp8kv8JHgFVrJJnecmNE.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c8d75e5-tbKD6F.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiEyp8kv8JHgFVrJJnecmNE.woff2?simply_static_page=3764
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiEyp8kv8JHgFVrJJnecmNE.woff2?simply_static_page=3764
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 5644 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/pxiEyp8kv8JHgFVrJJnecmNE.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c8d75e5-tbKD6F.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/pxiEyp8kv8JHgFVrJJnecmNE.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:854e6f96532537002044042175ea57d6f83bf4e9===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiEyp8kv8JHgFVrJJfecg.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c8dc412-jtg1jE.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiEyp8kv8JHgFVrJJfecg.woff2?simply_static_page=3765
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiEyp8kv8JHgFVrJJfecg.woff2?simply_static_page=3765
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 7884 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/pxiEyp8kv8JHgFVrJJfecg.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c8dc412-jtg1jE.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/pxiEyp8kv8JHgFVrJJfecg.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:ac6d71b4d5fdd2b3dabc9a06ff6c001e4251da0b===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c8dfee0-rLilZ6.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2?simply_static_page=3766
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2?simply_static_page=3766
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 39084 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c8dfee0-rLilZ6.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:15f76e2ec6981f3b262be7534507a3e03fb49333===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c8e474b-9whpdF.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2?simply_static_page=3767
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2?simply_static_page=3767
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 5484 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c8e474b-9whpdF.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:a4c13e07d42399c3edec6a6eb7d93f201af7dc36===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c8e816f-stk4G9.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2?simply_static_page=3768
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2?simply_static_page=3768
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 7748 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c8e816f-stk4G9.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:0da2d17e738f46d2a09e6fb7969da451719a9820===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c8ebcd4-Z810Md.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2?simply_static_page=3769
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2?simply_static_page=3769
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 39292 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c8ebcd4-Z810Md.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:a867f8984f595a9a79ed7db695f7c14c1df39e6b===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c8f0292-vQ5HyO.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2?simply_static_page=3770
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2?simply_static_page=3770
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:103] Filesize: 5524 bytes
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c8f0292-vQ5HyO.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:36] [class-ss-page.php:119] Checking Content Identical:cdc90db0ec64148e8572354a9ca9ed4a698c9da3===. Value: FALSE
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2
+[2025-06-23 09:43:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 103
+[2025-06-23 09:43:36] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c8f3832-ffV6NM.tmp
+[2025-06-23 09:43:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2?simply_static_page=3771
+[2025-06-23 09:43:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2?simply_static_page=3771
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:103] Filesize: 8000 bytes
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c8f3832-ffV6NM.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2
+[2025-06-23 09:43:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:37] [class-ss-page.php:119] Checking Content Identical:179f97ec0275f09603a8db94d4380eb584d81cd5===. Value: FALSE
+[2025-06-23 09:43:37] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K67QBiAJpp_c.woff2
+[2025-06-23 09:43:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 103
+[2025-06-23 09:43:37] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c902c89-ffXfIl.tmp
+[2025-06-23 09:43:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K67QBiAJpp_c.woff2?simply_static_page=3772
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K67QBiAJpp_c.woff2?simply_static_page=3772
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:103] Filesize: 5392 bytes
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K67QBiAJpp_c.woff2
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c902c89-ffXfIl.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K67QBiAJpp_c.woff2
+[2025-06-23 09:43:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:37] [class-ss-page.php:119] Checking Content Identical:bbfaf99eeee7c5599367c06792b2f087f6f60d89===. Value: FALSE
+[2025-06-23 09:43:37] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K67QBiEJpp_c.woff2
+[2025-06-23 09:43:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 103
+[2025-06-23 09:43:37] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c9068b5-mwaQyS.tmp
+[2025-06-23 09:43:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K67QBiEJpp_c.woff2?simply_static_page=3773
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K67QBiEJpp_c.woff2?simply_static_page=3773
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:103] Filesize: 16200 bytes
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K67QBiEJpp_c.woff2
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c9068b5-mwaQyS.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K67QBiEJpp_c.woff2
+[2025-06-23 09:43:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:37] [class-ss-page.php:119] Checking Content Identical:aabe7321cd3c38a1acb1411bc8f3d69a62818d6f===. Value: FALSE
+[2025-06-23 09:43:37] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K67QBi8Jpg.woff2
+[2025-06-23 09:43:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 103
+[2025-06-23 09:43:37] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c90b44f-9PVfVm.tmp
+[2025-06-23 09:43:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-gfonts/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K67QBi8Jpg.woff2?simply_static_page=3774
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-gfonts/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K67QBi8Jpg.woff2?simply_static_page=3774
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:103] Filesize: 20828 bytes
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-gfonts/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K67QBi8Jpg.woff2
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c90b44f-9PVfVm.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-gfonts/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K67QBi8Jpg.woff2
+[2025-06-23 09:43:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:37] [class-ss-page.php:119] Checking Content Identical:a21511aaa2f633721db267bef703a28cc6168db1===. Value: FALSE
+[2025-06-23 09:43:37] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-icons/Enery-Icon-Set-v1.2/fonts/Enery-Icon-Set.ttf
+[2025-06-23 09:43:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 103
+[2025-06-23 09:43:37] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c90fc79-IfGxfH.tmp
+[2025-06-23 09:43:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-icons/Enery-Icon-Set-v1.2/fonts/Enery-Icon-Set.ttf?simply_static_page=3775
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-icons/Enery-Icon-Set-v1.2/fonts/Enery-Icon-Set.ttf?simply_static_page=3775
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:103] Filesize: 12948 bytes
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-icons/Enery-Icon-Set-v1.2/fonts/Enery-Icon-Set.ttf
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c90fc79-IfGxfH.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-icons/Enery-Icon-Set-v1.2/fonts/Enery-Icon-Set.ttf
+[2025-06-23 09:43:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:37] [class-ss-page.php:119] Checking Content Identical:6841fcea2e975b90b52db2367e5c124b86c06e08===. Value: FALSE
+[2025-06-23 09:43:37] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-icons/Enery-Icon-Set-v1.2/fonts/Enery-Icon-Set.woff
+[2025-06-23 09:43:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 103
+[2025-06-23 09:43:37] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c918f68-XbJbd4.tmp
+[2025-06-23 09:43:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-icons/Enery-Icon-Set-v1.2/fonts/Enery-Icon-Set.woff?simply_static_page=3776
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-icons/Enery-Icon-Set-v1.2/fonts/Enery-Icon-Set.woff?simply_static_page=3776
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:103] Filesize: 13024 bytes
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fusion-icons/Enery-Icon-Set-v1.2/fonts/Enery-Icon-Set.woff
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921c918f68-XbJbd4.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/uploads/fusion-icons/Enery-Icon-Set-v1.2/fonts/Enery-Icon-Set.woff
+[2025-06-23 09:43:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:37] [class-ss-page.php:119] Checking Content Identical:ada31dadc78b7ca21d635980812e8b7a684d7209===. Value: FALSE
+[2025-06-23 09:43:37] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/uploads/fusion-icons/Enery-Icon-Set-v1.2/fonts/Enery-Icon-Set.svg
+[2025-06-23 09:43:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 103
+[2025-06-23 09:43:37] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c91ed1a-yLdiUc.tmp
+[2025-06-23 09:43:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/uploads/fusion-icons/Enery-Icon-Set-v1.2/fonts/Enery-Icon-Set.svg?simply_static_page=3777
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-icons/Enery-Icon-Set-v1.2/fonts/Enery-Icon-Set.svg?simply_static_page=3777
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:103] Filesize: 35887 bytes
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921c9e083d-8VuX2D.tmp
+[2025-06-23 09:43:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/uploads/fusion-icons/Enery-Icon-Set-v1.2/fonts/Enery-Icon-Set.svg
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:103] Filesize: 35887 bytes
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/themes/Avada/assets/images/patterns/pattern1.png
+[2025-06-23 09:43:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 103
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921caac2ca-o7746z.tmp
+[2025-06-23 09:43:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/themes/Avada/assets/images/patterns/pattern1.png?simply_static_page=3778
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/themes/Avada/assets/images/patterns/pattern1.png?simply_static_page=3778
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:103] Filesize: 3741 bytes
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Avada/assets/images/patterns/pattern1.png
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921caac2ca-o7746z.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/themes/Avada/assets/images/patterns/pattern1.png
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:38] [class-ss-page.php:119] Checking Content Identical:d61d99e89173d05cbc7523cf3f6d3ed1cf3ca6b9===. Value: FALSE
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/awb-icons.woff
+[2025-06-23 09:43:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 103
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cab03a6-qKiE12.tmp
+[2025-06-23 09:43:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/awb-icons.woff?simply_static_page=3779
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/awb-icons.woff?simply_static_page=3779
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:103] Filesize: 22204 bytes
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/awb-icons.woff
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cab03a6-qKiE12.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/awb-icons.woff
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:38] [class-ss-page.php:119] Checking Content Identical:1264211cb743c10de656b3d437ba3e24752a63b8===. Value: FALSE
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/awb-icons.ttf
+[2025-06-23 09:43:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 103
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cabaeb7-gQZkqI.tmp
+[2025-06-23 09:43:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/awb-icons.ttf?simply_static_page=3780
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/awb-icons.ttf?simply_static_page=3780
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:103] Filesize: 22128 bytes
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/awb-icons.ttf
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cabaeb7-gQZkqI.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/awb-icons.ttf
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:38] [class-ss-page.php:119] Checking Content Identical:1c6fc88a934274243b9fd94b07f741214f5abacc===. Value: FALSE
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/awb-icons.svg
+[2025-06-23 09:43:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 103
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cac6f31-FjDfKV.tmp
+[2025-06-23 09:43:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/awb-icons.svg?simply_static_page=3781
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/awb-icons.svg?simply_static_page=3781
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:103] Filesize: 72357 bytes
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/awb-icons.svg
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cac6f31-FjDfKV.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/awb-icons.svg
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:38] [class-ss-page.php:119] Checking Content Identical:f1666a4f9458cd8ceb1a80047ee956c1ac5b6032===. Value: FALSE
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.eot
+[2025-06-23 09:43:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 103
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cad94a1-BhfopY.tmp
+[2025-06-23 09:43:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.eot?simply_static_page=3782
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.eot?simply_static_page=3782
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:103] Filesize: 134346 bytes
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.eot
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cad94a1-BhfopY.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.eot
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:38] [class-ss-page.php:119] Checking Content Identical:20eeda4cc6205e707160f2e6e6d7ea9a63c4531b===. Value: FALSE
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.woff2
+[2025-06-23 09:43:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 103
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cae4b75-0GI7CI.tmp
+[2025-06-23 09:43:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.woff2?simply_static_page=3783
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.woff2?simply_static_page=3783
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:103] Filesize: 76736 bytes
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.woff2
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cae4b75-0GI7CI.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.woff2
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:38] [class-ss-page.php:119] Checking Content Identical:68ac09c5daef91dd2220ef3d063cd757989e0982===. Value: FALSE
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.woff
+[2025-06-23 09:43:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 103
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921caea9f3-u4DSPq.tmp
+[2025-06-23 09:43:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.woff?simply_static_page=3784
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.woff?simply_static_page=3784
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:103] Filesize: 90060 bytes
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.woff
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921caea9f3-u4DSPq.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.woff
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:38] [class-ss-page.php:119] Checking Content Identical:b6f3cc5710bed4370123567befcfa143e7c2dfe5===. Value: FALSE
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.ttf
+[2025-06-23 09:43:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 103
+[2025-06-23 09:43:38] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921caf0c3b-vCYc5R.tmp
+[2025-06-23 09:43:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.ttf?simply_static_page=3785
+[2025-06-23 09:43:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.ttf?simply_static_page=3785
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:103] Filesize: 134040 bytes
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.ttf
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921caf0c3b-vCYc5R.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.ttf
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:39] [class-ss-page.php:119] Checking Content Identical:3c045bd954f6d39386552c1c9effc11b3ab35f53===. Value: FALSE
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.svg
+[2025-06-23 09:43:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 103
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cb0706c-gG5r54.tmp
+[2025-06-23 09:43:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.svg?simply_static_page=3786
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.svg?simply_static_page=3786
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:103] Filesize: 747545 bytes
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.svg
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cb0706c-gG5r54.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.svg
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:39] [class-ss-page.php:119] Checking Content Identical:4c6d9c4f231c8c6d62dfaefd8f94f123bb998221===. Value: FALSE
+[2025-06-23 09:43:39] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 21 of 103 pages/files
+[2025-06-23 09:43:39] [class-ss-archive-creation-job.php:241] We're not done with the fetch_urls task yet
+[2025-06-23 09:43:39] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-06-23 09:43:39] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:69] Total pages: 103; Pages remaining: 32
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-regular-400.eot
+[2025-06-23 09:43:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 103
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cb278e4-H0dgdY.tmp
+[2025-06-23 09:43:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-regular-400.eot?simply_static_page=3787
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-regular-400.eot?simply_static_page=3787
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:103] Filesize: 34034 bytes
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-regular-400.eot
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cb278e4-H0dgdY.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-regular-400.eot
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:39] [class-ss-page.php:119] Checking Content Identical:61c5f21043d4490c4272b2055493e7d300827992===. Value: FALSE
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-regular-400.woff2
+[2025-06-23 09:43:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 103
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cb2d69c-6EWcHx.tmp
+[2025-06-23 09:43:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-regular-400.woff2?simply_static_page=3788
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-regular-400.woff2?simply_static_page=3788
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:103] Filesize: 13264 bytes
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-regular-400.woff2
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cb2d69c-6EWcHx.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-regular-400.woff2
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:39] [class-ss-page.php:119] Checking Content Identical:aa6cc2d47049bc05505d6ec1cd5237558b04d6e3===. Value: FALSE
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-regular-400.woff
+[2025-06-23 09:43:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 103
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cb32c94-Fmy1JD.tmp
+[2025-06-23 09:43:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-regular-400.woff?simply_static_page=3789
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-regular-400.woff?simply_static_page=3789
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:103] Filesize: 16276 bytes
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-regular-400.woff
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cb32c94-Fmy1JD.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-regular-400.woff
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:39] [class-ss-page.php:119] Checking Content Identical:0503c47cb8c8fde4036f945c0fad0cba93fd49ea===. Value: FALSE
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-regular-400.ttf
+[2025-06-23 09:43:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 103
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cb385e0-03NNZd.tmp
+[2025-06-23 09:43:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-regular-400.ttf?simply_static_page=3790
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-regular-400.ttf?simply_static_page=3790
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:103] Filesize: 33736 bytes
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-regular-400.ttf
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cb385e0-03NNZd.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-regular-400.ttf
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:39] [class-ss-page.php:119] Checking Content Identical:1411ad428f382b628ac6c316d464eb549b4d3baa===. Value: FALSE
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-regular-400.svg
+[2025-06-23 09:43:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 103
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cb3e441-XyXy2j.tmp
+[2025-06-23 09:43:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-regular-400.svg?simply_static_page=3791
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-regular-400.svg?simply_static_page=3791
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:103] Filesize: 144714 bytes
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-regular-400.svg
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cb3e441-XyXy2j.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-regular-400.svg
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:39] [class-ss-page.php:119] Checking Content Identical:d0064bbcaf063a4656ac0357cdaea4d79089fdda===. Value: FALSE
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.eot
+[2025-06-23 09:43:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 103
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cb51aa4-RjF968.tmp
+[2025-06-23 09:43:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.eot?simply_static_page=3792
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.eot?simply_static_page=3792
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:103] Filesize: 203030 bytes
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.eot
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cb51aa4-RjF968.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.eot
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:39] [class-ss-page.php:119] Checking Content Identical:b5e7a1c5a9bf3a357775d88a19830852cb15b512===. Value: FALSE
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.woff2
+[2025-06-23 09:43:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 103
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cb585b9-A07lyy.tmp
+[2025-06-23 09:43:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.woff2?simply_static_page=3793
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.woff2?simply_static_page=3793
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:103] Filesize: 78212 bytes
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.woff2
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cb585b9-A07lyy.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.woff2
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:39] [class-ss-page.php:119] Checking Content Identical:abc1ae262d760e104a5a5cb68614ac119fd0db18===. Value: FALSE
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.woff
+[2025-06-23 09:43:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 103
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cb62677-snmK1G.tmp
+[2025-06-23 09:43:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.woff?simply_static_page=3794
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.woff?simply_static_page=3794
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:103] Filesize: 101652 bytes
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.woff
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cb62677-snmK1G.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.woff
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:39] [class-ss-page.php:119] Checking Content Identical:878c2b32627953f388a76489f6c3ab2747e3daca===. Value: FALSE
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.ttf
+[2025-06-23 09:43:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 103
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cb68459-gg19Fz.tmp
+[2025-06-23 09:43:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.ttf?simply_static_page=3795
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.ttf?simply_static_page=3795
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:103] Filesize: 202744 bytes
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.ttf
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cb68459-gg19Fz.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.ttf
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:39] [class-ss-page.php:119] Checking Content Identical:70a4b7ee7f5b183b5cbaecc32f670e71ac7c5364===. Value: FALSE
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:73] URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.svg
+[2025-06-23 09:43:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 103
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cb71b58-ADUbsN.tmp
+[2025-06-23 09:43:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.svg?simply_static_page=3796
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.svg?simply_static_page=3796
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:103] Filesize: 918991 bytes
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.svg
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cb71b58-ADUbsN.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.svg
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:39] [class-ss-page.php:119] Checking Content Identical:a0d661923385f46b74f537a98325661f1bb3358e===. Value: FALSE
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:73] URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/mejs-controls-dark.svg
+[2025-06-23 09:43:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 103
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cb8f47a-w2Aqbf.tmp
+[2025-06-23 09:43:39] [class-ss-page-handler.php:38] URL Prepared:https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/mejs-controls-dark.svg?simply_static_page=3797
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/mejs-controls-dark.svg?simply_static_page=3797
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:103] Filesize: 4598 bytes
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/fusion-builder/assets/images/mejs-controls-dark.svg
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cb8f47a-w2Aqbf.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/plugins/fusion-builder/assets/images/mejs-controls-dark.svg
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:39] [class-ss-page.php:119] Checking Content Identical:ba9a92d59e7f2e9c6ac03315a689293bc665c901===. Value: FALSE
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:73] URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/closedhand.cur
+[2025-06-23 09:43:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 103
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cb987f4-cQaKLY.tmp
+[2025-06-23 09:43:39] [class-ss-page-handler.php:38] URL Prepared:https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/closedhand.cur?simply_static_page=3798
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/closedhand.cur?simply_static_page=3798
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:103] Filesize: 326 bytes
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: 
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/fusion-builder/assets/images/iLightbox/closedhand.cur
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cb987f4-cQaKLY.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/plugins/fusion-builder/assets/images/iLightbox/closedhand.cur
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:39] [class-ss-page.php:119] Checking Content Identical:d828aeff6e9e3adea2d18808bfb119be4946650d===. Value: FALSE
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:73] URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/preloader.gif
+[2025-06-23 09:43:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 103
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cb9fccd-hZgBfL.tmp
+[2025-06-23 09:43:39] [class-ss-page-handler.php:38] URL Prepared:https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/preloader.gif?simply_static_page=3799
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/preloader.gif?simply_static_page=3799
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:103] Filesize: 17883 bytes
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/gif
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/preloader.gif
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cb9fccd-hZgBfL.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/preloader.gif
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:39] [class-ss-page.php:119] Checking Content Identical:dca3759a19fb9bc151c898a7aab45804d1c58446===. Value: FALSE
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:73] URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/caption-bg.png
+[2025-06-23 09:43:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 103
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cbaa597-Iz84kH.tmp
+[2025-06-23 09:43:39] [class-ss-page-handler.php:38] URL Prepared:https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/caption-bg.png?simply_static_page=3800
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/caption-bg.png?simply_static_page=3800
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:103] Filesize: 972 bytes
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/caption-bg.png
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cbaa597-Iz84kH.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/caption-bg.png
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:39] [class-ss-page.php:119] Checking Content Identical:0707be0aea73b7cf6adfac73987599dec79dd8d7===. Value: FALSE
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:73] URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/social-bg.png
+[2025-06-23 09:43:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 103
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cbb0b11-wZZ1GI.tmp
+[2025-06-23 09:43:39] [class-ss-page-handler.php:38] URL Prepared:https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/social-bg.png?simply_static_page=3801
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/social-bg.png?simply_static_page=3801
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:103] Filesize: 930 bytes
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/social-bg.png
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cbb0b11-wZZ1GI.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/social-bg.png
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:39] [class-ss-page.php:119] Checking Content Identical:a69af8c0bae342f2c76753f2a249b67ce1de052b===. Value: FALSE
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:73] URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/alert.png
+[2025-06-23 09:43:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 103
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cbb6fc7-wY3HtQ.tmp
+[2025-06-23 09:43:39] [class-ss-page-handler.php:38] URL Prepared:https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/alert.png?simply_static_page=3802
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/alert.png?simply_static_page=3802
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:103] Filesize: 2255 bytes
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/alert.png
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cbb6fc7-wY3HtQ.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/alert.png
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:39] [class-ss-page.php:119] Checking Content Identical:d6e374aaac6a43c10119e3a67b9edfb321fa6684===. Value: FALSE
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:73] URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/buttons.png
+[2025-06-23 09:43:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 103
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cbbd869-5seKcN.tmp
+[2025-06-23 09:43:39] [class-ss-page-handler.php:38] URL Prepared:https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/buttons.png?simply_static_page=3803
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/buttons.png?simply_static_page=3803
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:103] Filesize: 777 bytes
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/buttons.png
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cbbd869-5seKcN.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/buttons.png
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:39] [class-ss-page.php:119] Checking Content Identical:89ed345891fcd13dae285e7e7aa07fb330e6952c===. Value: FALSE
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:73] URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/fullscreen-icon-64.png
+[2025-06-23 09:43:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 103
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cbca18f-jR6I00.tmp
+[2025-06-23 09:43:39] [class-ss-page-handler.php:38] URL Prepared:https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/fullscreen-icon-64.png?simply_static_page=3804
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/fullscreen-icon-64.png?simply_static_page=3804
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:103] Filesize: 235 bytes
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/fullscreen-icon-64.png
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cbca18f-jR6I00.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/fullscreen-icon-64.png
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:39] [class-ss-page.php:119] Checking Content Identical:b243280d26cd031a5fd9785c51a28ec2cb2ed845===. Value: FALSE
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:73] URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/fullscreen-hover-icon-64.png
+[2025-06-23 09:43:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 103
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cbd46c1-2cIw0U.tmp
+[2025-06-23 09:43:39] [class-ss-page-handler.php:38] URL Prepared:https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/fullscreen-hover-icon-64.png?simply_static_page=3805
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/fullscreen-hover-icon-64.png?simply_static_page=3805
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:103] Filesize: 243 bytes
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/fullscreen-hover-icon-64.png
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cbd46c1-2cIw0U.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/fullscreen-hover-icon-64.png
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:39] [class-ss-page.php:119] Checking Content Identical:3675787530695a7871ff0bf2e9503da2005e64a0===. Value: FALSE
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:73] URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/x-mark-icon-64.png
+[2025-06-23 09:43:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 103
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cbda452-zFShJN.tmp
+[2025-06-23 09:43:39] [class-ss-page-handler.php:38] URL Prepared:https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/x-mark-icon-64.png?simply_static_page=3806
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/x-mark-icon-64.png?simply_static_page=3806
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:103] Filesize: 785 bytes
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/x-mark-icon-64.png
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cbda452-zFShJN.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/x-mark-icon-64.png
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:39] [class-ss-page.php:119] Checking Content Identical:49a1969fc661fcfb265f70a58df6e7a270873313===. Value: FALSE
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:73] URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/x-mark-hover-icon-64.png
+[2025-06-23 09:43:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 103
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cbe0b5a-lsuMKa.tmp
+[2025-06-23 09:43:39] [class-ss-page-handler.php:38] URL Prepared:https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/x-mark-hover-icon-64.png?simply_static_page=3807
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/x-mark-hover-icon-64.png?simply_static_page=3807
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:103] Filesize: 528 bytes
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/x-mark-hover-icon-64.png
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cbe0b5a-lsuMKa.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/x-mark-hover-icon-64.png
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:39] [class-ss-page.php:119] Checking Content Identical:d8ba9099f3f24f923958b5e89feaa2f10dd005e2===. Value: FALSE
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:73] URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/arrow-next-icon-64.png
+[2025-06-23 09:43:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 103
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cbe6b94-twMTE0.tmp
+[2025-06-23 09:43:39] [class-ss-page-handler.php:38] URL Prepared:https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/arrow-next-icon-64.png?simply_static_page=3808
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/arrow-next-icon-64.png?simply_static_page=3808
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:103] Filesize: 827 bytes
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/arrow-next-icon-64.png
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cbe6b94-twMTE0.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/arrow-next-icon-64.png
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:39] [class-ss-page.php:119] Checking Content Identical:45961a81a41c6d98c7258a702d27d04997d00499===. Value: FALSE
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:73] URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/arrow-next-hover-icon-64.png
+[2025-06-23 09:43:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 103
+[2025-06-23 09:43:39] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cbecd9f-4rbBSe.tmp
+[2025-06-23 09:43:39] [class-ss-page-handler.php:38] URL Prepared:https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/arrow-next-hover-icon-64.png?simply_static_page=3809
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/arrow-next-hover-icon-64.png?simply_static_page=3809
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:103] Filesize: 502 bytes
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/arrow-next-hover-icon-64.png
+[2025-06-23 09:43:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cbecd9f-4rbBSe.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/arrow-next-hover-icon-64.png
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:40] [class-ss-page.php:119] Checking Content Identical:dbe488541cc37c651ab5f754f99e149ccfe5d4cf===. Value: FALSE
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:73] URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/arrow-prev-icon-64.png
+[2025-06-23 09:43:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 103
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cc025de-AuZ3uz.tmp
+[2025-06-23 09:43:40] [class-ss-page-handler.php:38] URL Prepared:https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/arrow-prev-icon-64.png?simply_static_page=3810
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/arrow-prev-icon-64.png?simply_static_page=3810
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:103] Filesize: 837 bytes
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/arrow-prev-icon-64.png
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cc025de-AuZ3uz.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/arrow-prev-icon-64.png
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:40] [class-ss-page.php:119] Checking Content Identical:fc976762fd218ccbe0a2655de235197a68426ac4===. Value: FALSE
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:73] URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/arrow-prev-hover-icon-64.png
+[2025-06-23 09:43:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 103
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cc08b81-nvBZoT.tmp
+[2025-06-23 09:43:40] [class-ss-page-handler.php:38] URL Prepared:https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/arrow-prev-hover-icon-64.png?simply_static_page=3811
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/arrow-prev-hover-icon-64.png?simply_static_page=3811
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:103] Filesize: 626 bytes
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/arrow-prev-hover-icon-64.png
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cc08b81-nvBZoT.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/arrow-prev-hover-icon-64.png
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:40] [class-ss-page.php:119] Checking Content Identical:00b86ab442165d1cf43a6280932c93f61c12fe78===. Value: FALSE
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:73] URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/play-icon-64.png
+[2025-06-23 09:43:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 103
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cc1584c-X7s4tT.tmp
+[2025-06-23 09:43:40] [class-ss-page-handler.php:38] URL Prepared:https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/play-icon-64.png?simply_static_page=3812
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/play-icon-64.png?simply_static_page=3812
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:103] Filesize: 821 bytes
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/play-icon-64.png
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cc1584c-X7s4tT.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/play-icon-64.png
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:40] [class-ss-page.php:119] Checking Content Identical:3b9d9e0a4ea670d8afded05cf1402a980696b770===. Value: FALSE
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:73] URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/play-hover-icon-64.png
+[2025-06-23 09:43:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 103
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cc2144c-FkNNmn.tmp
+[2025-06-23 09:43:40] [class-ss-page-handler.php:38] URL Prepared:https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/play-hover-icon-64.png?simply_static_page=3813
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/play-hover-icon-64.png?simply_static_page=3813
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:103] Filesize: 609 bytes
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/play-hover-icon-64.png
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cc2144c-FkNNmn.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/play-hover-icon-64.png
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:40] [class-ss-page.php:119] Checking Content Identical:92a8e0807cc94bae5f5cbe12bed1a9b7a6ae8683===. Value: FALSE
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:73] URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/pause-icon-64.png
+[2025-06-23 09:43:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 103
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cc2be88-i4lDbv.tmp
+[2025-06-23 09:43:40] [class-ss-page-handler.php:38] URL Prepared:https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/pause-icon-64.png?simply_static_page=3814
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/pause-icon-64.png?simply_static_page=3814
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:103] Filesize: 224 bytes
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/pause-icon-64.png
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cc2be88-i4lDbv.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/pause-icon-64.png
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:40] [class-ss-page.php:119] Checking Content Identical:5e42c0a68721035698c2f101aff77c05adbe59e0===. Value: FALSE
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:73] URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/pause-hover-icon-64.png
+[2025-06-23 09:43:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 103
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cc380e5-9vQtOl.tmp
+[2025-06-23 09:43:40] [class-ss-page-handler.php:38] URL Prepared:https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/pause-hover-icon-64.png?simply_static_page=3815
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/pause-hover-icon-64.png?simply_static_page=3815
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:103] Filesize: 209 bytes
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/pause-hover-icon-64.png
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cc380e5-9vQtOl.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/pause-hover-icon-64.png
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:40] [class-ss-page.php:119] Checking Content Identical:b7033825ab9d79e3c78eff43a83f24b8898c7543===. Value: FALSE
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:73] URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/thumb-overlay-play.png
+[2025-06-23 09:43:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 103
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cc41ecf-EOpqGD.tmp
+[2025-06-23 09:43:40] [class-ss-page-handler.php:38] URL Prepared:https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/thumb-overlay-play.png?simply_static_page=3816
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/thumb-overlay-play.png?simply_static_page=3816
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:103] Filesize: 578 bytes
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/thumb-overlay-play.png
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cc41ecf-EOpqGD.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/thumb-overlay-play.png
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:40] [class-ss-page.php:119] Checking Content Identical:b54a25c0b6f24bd64bd3a79ae4303530a98663d0===. Value: FALSE
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:73] URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/arrows_vertical.png
+[2025-06-23 09:43:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 103
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cc4d920-Tu8Egm.tmp
+[2025-06-23 09:43:40] [class-ss-page-handler.php:38] URL Prepared:https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/arrows_vertical.png?simply_static_page=3817
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/arrows_vertical.png?simply_static_page=3817
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:103] Filesize: 1794 bytes
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/arrows_vertical.png
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cc4d920-Tu8Egm.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/arrows_vertical.png
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:40] [class-ss-page.php:119] Checking Content Identical:23c1aa41ae330ecdfac4f9e2f8ef16f259b5dd40===. Value: FALSE
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:73] URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/arrows_horizontal.png
+[2025-06-23 09:43:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 103
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cc595ce-3THTVm.tmp
+[2025-06-23 09:43:40] [class-ss-page-handler.php:38] URL Prepared:https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/arrows_horizontal.png?simply_static_page=3818
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:251] Fetching URL: https://localhost/brillan/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/arrows_horizontal.png?simply_static_page=3818
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:103] Filesize: 1817 bytes
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/arrows_horizontal.png
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cc595ce-3THTVm.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806/wp-content/plugins/fusion-builder/assets/images/iLightbox/metro-white-skin/arrows_horizontal.png
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-23 09:43:40] [class-ss-page.php:119] Checking Content Identical:622052a465fc84a7fbd0edee12ac4690db327e70===. Value: FALSE
+[2025-06-23 09:43:40] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 71 of 103 pages/files
+[2025-06-23 09:43:40] [class-ss-archive-creation-job.php:241] We're not done with the fetch_urls task yet
+[2025-06-23 09:43:40] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-06-23 09:43:40] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-06-23 09:43:40] [class-ss-fetch-urls-task.php:69] Total pages: 103; Pages remaining: 0
+[2025-06-23 09:43:40] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 103 of 103 pages/files
+[2025-06-23 09:43:40] [class-ss-archive-creation-job.php:233] We've found our next task: generate_404
+[2025-06-23 09:43:40] [class-ss-archive-creation-job.php:194] Current task: generate_404
+[2025-06-23 09:43:40] [class-ss-archive-creation-job.php:208] Performing task: generate_404
+[2025-06-23 09:43:40] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\fajar\AppData\Local\Temp/685921cc66f8d-9fMaN8.tmp
+[2025-06-23 09:43:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/brillan/1750671821?simply_static_page=0
+[2025-06-23 09:43:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/brillan/1750671821?simply_static_page=0
+[2025-06-23 09:43:41] [class-ss-url-fetcher.php:103] Filesize: 35887 bytes
+[2025-06-23 09:43:41] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-06-23 09:43:41] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2025-06-23 09:43:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\fajar\AppData\Local\Temp/685921cc66f8d-9fMaN8.tmp to C:\xampp\htdocs\brillan/wp-content/uploads\simply-static\temp-files/simply-static-1-1750671806\404/index.html
+[2025-06-23 09:43:41] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2025-06-23 09:43:41] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2025-06-23 09:43:41] [class-ss-page.php:119] Checking Content Identical:ef7bef48d7af633c85c7e955c4f342595f4df656===. Value: FALSE
+[2025-06-23 09:43:41] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2025-06-23 09:43:41] [class-ss-archive-creation-job.php:233] We've found our next task: create_zip_archive
+[2025-06-23 09:43:41] [class-ss-archive-creation-job.php:194] Current task: create_zip_archive
+[2025-06-23 09:43:41] [class-ss-archive-creation-job.php:208] Performing task: create_zip_archive
+[2025-06-23 09:43:41] [class-ss-create-zip-archive.php:85] Fetching list of files to include in zip
+[2025-06-23 09:43:41] [class-ss-create-zip-archive.php:94] Creating zip archive
+[2025-06-23 09:43:41] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a download href="http://localhost/brillan/wp-content/uploads/simply-static/temp-files/simply-static-1-1750671806.zip">Click here to download</a>
+[2025-06-23 09:43:41] [class-ss-archive-creation-job.php:233] We've found our next task: wrapup
+[2025-06-23 09:43:41] [class-ss-archive-creation-job.php:194] Current task: wrapup
+[2025-06-23 09:43:41] [class-ss-archive-creation-job.php:208] Performing task: wrapup
+[2025-06-23 09:43:41] [class-ss-wrapup-task.php:23] Deleting temporary files
+[2025-06-23 09:43:41] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2025-06-23 09:43:41] [class-ss-archive-creation-job.php:228] This task is done and there are no more tasks, time to complete the job
+[2025-06-23 09:43:41] [class-ss-archive-creation-job.php:273] Completing the job
+[2025-06-23 09:43:41] [class-ss-archive-creation-job.php:414] Status message: [done] Done! Finished in 00:00:15
