@@ -1,0 +1,8 @@
+.fusion-text {
+  --awb-width-small: var(--awb-width, var(--awb-width-medium));
+  --awb-min-width-small: var(--awb-min-width, var(--awb-min-width-medium));
+  --awb-max-width-small: var(--awb-max-width, var(--awb-max-width-medium));
+  width: var(--awb-width-small) !important;
+  min-width: var(--awb-min-width-small) !important;
+  max-width: var(--awb-max-width-small) !important;
+}
